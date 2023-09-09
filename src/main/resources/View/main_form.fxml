@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="717.0" prefWidth="1020.0" style="-fx-background-color: #f8c291;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.stockmanage.Controller.MainFormController">
+   <children>
+      <Label alignment="CENTER" layoutX="15.0" layoutY="14.0" prefHeight="142.0" prefWidth="992.0" style="-fx-background-color: #d63031;" text="Dash Board" textFill="#f5f3f3">
+         <font>
+            <Font name="System Bold" size="44.0" />
+         </font>
+      </Label>
+      <Group layoutX="222.0" layoutY="304.0" />
+      <Button layoutX="15.0" layoutY="184.0" mnemonicParsing="false" onAction="#btnCustomerClick" prefHeight="108.0" prefWidth="183.0" style="-fx-background-color: #e74c3c;" text="Customer">
+         <font>
+            <Font size="22.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <graphic>
+            <ImageView fitHeight="41.0" fitWidth="41.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@customer-management-4.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button layoutX="14.0" layoutY="315.0" mnemonicParsing="false" onAction="#btnItemClick" prefHeight="108.0" prefWidth="183.0" style="-fx-background-color: #e74c3c;" text="    Item">
+         <font>
+            <Font size="22.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <graphic>
+            <ImageView fitHeight="39.0" fitWidth="37.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@items-icon-29.jpg" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button layoutX="14.0" layoutY="451.0" mnemonicParsing="false" onAction="#btnSupplyClick" prefHeight="108.0" prefWidth="183.0" style="-fx-background-color: #e74c3c;" text="  Supply">
+         <font>
+            <Font size="22.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <graphic>
+            <ImageView fitHeight="41.0" fitWidth="45.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@72109.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button layoutX="15.0" layoutY="581.0" mnemonicParsing="false" onAction="#btnLogoutClick" prefHeight="108.0" prefWidth="183.0" style="-fx-background-color: #e74c3c;" text="  Log Out">
+         <font>
+            <Font size="22.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <graphic>
+            <ImageView fitHeight="35.0" fitWidth="37.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@logout-8.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <StackPane fx:id="formContainer" layoutX="228.0" layoutY="178.0" prefHeight="514.0" prefWidth="776.0">
+         <children>
+            <ImageView fitHeight="260.0" fitWidth="483.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@58aff1e7829958a978a4a6ce.png" />
+               </image>
+            </ImageView>
+         </children></StackPane>
+   </children>
+</AnchorPane>
